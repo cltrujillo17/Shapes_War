@@ -1,0 +1,36 @@
+Font Fonts/ShareTechMono-Regular.ttf 24 255 255 255
+
+Window: W               (width),
+        H               (hight), 
+        FL              (frame limit), 
+        FS              (full screen), 1 yes, 0 no
+        
+Font: F                 (Font file), 
+      S                 (Font Size), 
+      R, G, B
+
+Player: SR              (Shape Radius), 
+        CR              (Collision Radius), 
+        S               (speed),                  float
+        FR, FG, FB      (Fill Color), 
+        OR, OG, OB      (Outline Color), 
+        OT              (Outline Thickness), 
+        V               (Shape Vertices)
+
+Enemy: SR,
+       CR,
+       SMIN, SMAX,          float, float
+       OR, OG, OB,
+       OT,
+       VMIN, VMAX
+       L                (Small Lifespan),
+       SI               (Spawn Interval)
+
+Bullet: SR              (Shape Radius), 
+        CR              (Collision Radius), 
+        S               (speed),                  float
+        FR, FG, FB      (Fill Color), 
+        OR, OG, OB      (Outline Color), 
+        OT              (Outline Thickness), 
+        V               (Shape Vertices)
+        L               (Small Lifespan)
